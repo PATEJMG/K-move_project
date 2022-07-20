@@ -1,0 +1,61 @@
+#center1-1{
+	width:90%;
+	height:40px;
+	background-color:#1565C0;
+	color:#E3F2FD;
+    text-align:center;
+    font-size:30px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.copyright {
+	
+    background-color: #1565C0;
+    color: #ffffff;
+    font-size: 1.4px;
+    text-align: center;
+    line-height: 1;
+    padding: 18px 10px 18px 10px;
+  }
+  
+  
+  #center1{
+  text-align: center
+  }
+  #center1 .button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin: 0;
+      margin-right: 1%;
+      width: 400px;
+      height:60px;
+      padding: 30px 40px 30px 40px;
+      
+      font-size: 30px;
+      text-align: center;
+      text-decoration: none;
+      background:#64B5F6;
+      display: inline-block;
+      width: auto;
+      border: 2px solid black;
+      border-radius: 10px;
+      color:black;
+      transition-property:all;/*속성값*/
+      transition-duration:0.3s;/*효과를 완료하는데 걸리는 시간*/
+      transition-timing-function:ease-in-out;/*효과의 속도곡선*/
+      transition-delay:0;
+      
+  }
+  #center1 .button:hover{
+      background:#42a5f5;
+      color:#ffffff;
+      border: 3px solid #ffffff;
+      box-shadow: 6px 6px #1565C0;
+      transition-property:all;/*속성값*/
+      transition-duration:0.3s;/*효과를 완료하는데 걸리는 시간*/
+      transition-timing-function:ease-in-out;/*효과의 속도곡선*/
+      transition-delay:0;
+  
+      }
